@@ -1,0 +1,22 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-DaniBanani67$ git reset --hard 92762d1
+HEAD está ahora en 92762d1 Commit inicial
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-DaniBanani67$ git log --oneline
+92762d1 (HEAD -> main) Commit inicial
+7de4ab2 (origin/main, origin/HEAD) add deadline
+c196b2a Initial commit
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-DaniBanani67$ git reflog
+92762d1 (HEAD -> main) HEAD@{0}: reset: moving to 92762d1
+4dd248b HEAD@{1}: commit: Actualiza main antes de integrar A
+92762d1 (HEAD -> main) HEAD@{2}: checkout: moving from feature-b to main
+284b45c (feature-b-recuperada) HEAD@{3}: commit: Añade funcionalidad B
+92762d1 (HEAD -> main) HEAD@{4}: checkout: moving from main to feature-b
+92762d1 (HEAD -> main) HEAD@{5}: checkout: moving from feature-a to main
+a901b0c (feature-a) HEAD@{6}: commit: Añade funcionalidad A
+92762d1 (HEAD -> main) HEAD@{7}: checkout: moving from main to feature-a
+92762d1 (HEAD -> main) HEAD@{8}: commit: Commit inicial
+7de4ab2 (origin/main, origin/HEAD) HEAD@{9}: clone: from github.com:IES-Torrevigia-FP/actividad-6-10-git-log-git-reflog-leer-historial-commits-DaniBanani67.git
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-DaniBanani67$ git reset --hard 92762d1
+HEAD está ahora en 92762d1 Commit inicial
+
+git reflog guarda los estados anteriores de HEAD, lo que hace que puedas
+recuperar commits despues de un reset

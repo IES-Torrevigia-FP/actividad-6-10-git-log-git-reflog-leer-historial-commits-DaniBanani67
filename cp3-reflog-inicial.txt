@@ -1,0 +1,13 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-DaniBanani67$ git reflog
+4dd248b (HEAD -> main) HEAD@{0}: commit: Actualiza main antes de integrar A
+92762d1 HEAD@{1}: checkout: moving from feature-b to main
+284b45c (feature-b) HEAD@{2}: commit: Añade funcionalidad B
+92762d1 HEAD@{3}: checkout: moving from main to feature-b
+92762d1 HEAD@{4}: checkout: moving from feature-a to main
+a901b0c (feature-a) HEAD@{5}: commit: Añade funcionalidad A
+92762d1 HEAD@{6}: checkout: moving from main to feature-a
+92762d1 HEAD@{7}: commit: Commit inicial
+7de4ab2 (origin/main, origin/HEAD) HEAD@{8}: clone: from github.com:IES-Torrevigia-FP/actividad-6-10-git-log-git-reflog-leer-historial-commits-DaniBanani67.git
+
+
+git reflog muestra lo  de HEAD y de las ramas, incluso si esos commits ya no estan en el historial

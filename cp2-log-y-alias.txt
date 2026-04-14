@@ -1,0 +1,12 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-DaniBanani67$ git lg
+* 4dd248b (HEAD -> main) Actualiza main antes de integrar A
+| * 284b45c (feature-b) Añade funcionalidad B
+|/  
+| * a901b0c (feature-a) Añade funcionalidad A
+|/  
+* 92762d1 Commit inicial
+* 7de4ab2 (origin/main, origin/HEAD) add deadline
+* c196b2a Initial commit
+
+
+Esto es util porque enseña el historial resumido y tambien las ramas

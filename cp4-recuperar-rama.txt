@@ -1,0 +1,12 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-10-git-log-git-reflog-leer-historial-commits-DaniBanani67$ git branch
+git log --oneline feature-b-recuperada
+  feature-a
+  feature-b-recuperada
+* main
+284b45c (feature-b-recuperada) Añade funcionalidad B
+92762d1 Commit inicial
+7de4ab2 (origin/main, origin/HEAD) add deadline
+c196b2a Initial commit
+
+git reflog permite ver commits cuando una rama se haya borrado
+Asi se puede crear una nueva rama yendo a ese commit y recuperar el trabajo
